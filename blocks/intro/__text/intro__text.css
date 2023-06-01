@@ -1,0 +1,27 @@
+.intro__text {
+    display: block;
+    max-width: 690px;
+    max-height: 208px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 26px;
+    text-align: start;
+    margin-block-end: 33px;
+    margin-block-start: 0;      
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__text {
+      max-width: 720px;
+      margin-bottom: 33px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .intro__text {
+      max-width: 288px;
+      max-height: 520px;
+      margin-bottom: 34px;
+    }
+  }
