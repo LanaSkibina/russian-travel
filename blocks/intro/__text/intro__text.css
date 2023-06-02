@@ -1,7 +1,6 @@
 .intro__text {
     display: block;
     max-width: 690px;
-    max-height: 208px;
     font-size: 16px;
     font-weight: 400;
     color: #FFFFFF;
@@ -21,7 +20,6 @@
   @media screen and (max-width: 767px) {
     .intro__text {
       max-width: 288px;
-      max-height: 520px;
       margin-bottom: 34px;
     }
   }

@@ -5,6 +5,7 @@
     line-height: 28px;
     margin-right: 18px;
     text-decoration: none;
+    font-style: normal;
 }
 
 .header__lang-link:last-child {
