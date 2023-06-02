@@ -2,7 +2,6 @@
     display: flex;
     position: relative;
     max-width: 1184px;
-    min-height: 52px;
     margin: 28px auto 56px;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +24,6 @@
   @media screen and (max-width: 767px) {
     .header {
       max-width: 288px;
-      max-height: 42px;
       margin-top: 16px;
       margin-bottom: 48px;
     }
