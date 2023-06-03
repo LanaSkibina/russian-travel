@@ -4,3 +4,19 @@
   object-fit: cover;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1023px) {
+  .lead__image {
+    max-width: 768px;
+    min-height: 480px;
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__image {
+    max-width: 320px;
+    min-height: 200px;
+    object-fit: contain;
+  }
+}
